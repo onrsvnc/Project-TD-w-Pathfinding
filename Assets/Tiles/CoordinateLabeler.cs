@@ -22,7 +22,7 @@ public class CoordinateLabeler : MonoBehaviour
     {
         gridManager = FindObjectOfType<GridManager>();
         label = GetComponent<TextMeshPro>();
-        label.enabled = true;  //Change this before launch
+        //label.enabled = false;  //Change this before launch
 
         DisplayCoordinates();
     }
@@ -35,20 +35,17 @@ public class CoordinateLabeler : MonoBehaviour
         }
 
         SetLabelColor();
-        // ToggleLabels();
+        ToggleLabels();
     }
 
-    // void ToggleLabels()
-    // {
-    //     if(Input.GetKey(KeyCode.C))
-    //     {
-    //         label.enabled = true;
-    //     }
-    //     else
-    //     {
-    //         label.enabled = false;
-    //     }
-    // }
+    void ToggleLabels()
+    {
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            label.enabled = !label.IsActive();
+        }
+        
+    }
     void SetLabelColor()
     {
         if(gridManager == null) {return;}

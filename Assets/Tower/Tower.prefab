@@ -42,7 +42,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436861447153751043}
   serializedVersion: 8
-  lengthInSec: 1.25
+  lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -4839,7 +4839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905614160827633926}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5303455, y: 0, z: 0.6387545}
+  m_LocalPosition: {x: -0.5303455, y: 2.00004, z: 0.6387545}
   m_LocalScale: {x: 5.4099994, y: 5, z: 6.1399994}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5953,7 +5953,7 @@ ParticleSystem:
     m_BurstCount: 1
     m_Bursts:
     - serializedVersion: 2
-      time: 1.25
+      time: 1
       countCurve:
         serializedVersion: 2
         minMaxState: 0
@@ -9957,7 +9957,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5248315049757093602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6833656, y: 0.79999995, z: 0.6605953}
+  m_LocalPosition: {x: -0.6833656, y: 2.80004, z: 0.6605953}
   m_LocalScale: {x: 0.7, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10371,3 +10371,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 375
+  buildDelay: 1
