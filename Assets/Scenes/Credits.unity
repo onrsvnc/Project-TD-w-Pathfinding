@@ -2783,63 +2783,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &705276094
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 191494933503730127, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
-      propertyPath: m_Name
-      value: PostProcessingGlobal
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
 --- !u!4 &707799240 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8588959554982667321, guid: 9924925829a1d174389e2c337690bcc8, type: 3}
@@ -3624,7 +3567,7 @@ MonoBehaviour:
     m_Bits: 64
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
-  antialiasingMode: 1
+  antialiasingMode: 0
   temporalAntialiasing:
     jitterSpread: 0.75
     sharpness: 0.25
@@ -3633,7 +3576,7 @@ MonoBehaviour:
   subpixelMorphologicalAntialiasing:
     quality: 2
   fastApproximateAntialiasing:
-    fastMode: 1
+    fastMode: 0
     keepAlpha: 0
   fog:
     enabled: 1
@@ -4043,6 +3986,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1991510131310983977, guid: c1fdc8027f4ed2341ad8307767d7aaa9, type: 3}
   m_PrefabInstance: {fileID: 1213812123}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1158860697
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730125, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 191494933503730127, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
+      propertyPath: m_Name
+      value: PostProcessingGlobal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b9215f05f941e143bf1b48225096642, type: 3}
 --- !u!1 &1186553358
 GameObject:
   m_ObjectHideFlags: 0
@@ -6954,7 +6954,7 @@ MonoBehaviour:
     & 18th Century by Douglas @ dafont.com\r\n--Skybox - Sky series free avionix\r\n--SFX
     - cannon_fire & cannon_hit_wall by Thimras @ opengameart.org, \r\nCannon1 by
     Isaac200000, 8bit cannon by DeVern, DistantCannonFire by stomachache @ freesound.org\r\n--Music
-    - Enemy Ship Approaching by yd @ opengameart.org"
+    - Enemy Ship Approaching by yd @ opengameart.org\n--Programming by Onur Sevin\xE7"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
