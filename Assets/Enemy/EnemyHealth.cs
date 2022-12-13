@@ -16,14 +16,17 @@ public class EnemyHealth : MonoBehaviour
     
     int currentHitPoints = 0;
     Enemy enemy;
+    public Healthbar healthbar;
     
     void OnEnable()
     {
         currentHitPoints = maxHitPoints;
+        healthbar.SetMaxHealth(maxHitPoints);
     }
     void Start()
     {
         enemy = GetComponent<Enemy>();
+       
     }
 
     void OnParticleCollision(GameObject other)
@@ -35,6 +38,7 @@ public class EnemyHealth : MonoBehaviour
     void ProcessHit()
     {
         currentHitPoints--;
+        healthbar.SetHealth(currentHitPoints);
         if(currentHitPoints <= Mathf.Epsilon)
         {
             DeathSFX();
